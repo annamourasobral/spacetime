@@ -1,7 +1,7 @@
 {
   "name": "server",
+  "author": "Anna Moura Sobral",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
@@ -9,9 +9,6 @@
     "migrate" : "prisma migrate dev",
     "gui":"prisma studio" 
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.2.0",
     "@types/node": "^20.1.3",
