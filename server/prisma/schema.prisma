@@ -13,11 +13,11 @@ datasource db {
 // Table User
 model User {
   // Field | Type | Unique Primary Key
-  id       String @id @default(uuid())
-  githubId Int    @unique
-  name     String
-  login    String
-  avatar   String
+  id        String @id @default(uuid())
+  githubId  Int    @unique
+  name      String
+  login     String
+  avatarUrl String
 
   //Relationed to Memory Table
   Memory Memory[]
