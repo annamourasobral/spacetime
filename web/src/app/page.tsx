@@ -2,11 +2,11 @@ import { EmptyMemories } from '@/components/EmptyMemories'
 import { api } from '@/lib/api'
 import { cookies } from 'next/headers'
 import dayjs from 'dayjs'
-import ptBR from 'dayjs/locale/pt-br'
+import de from 'dayjs/locale/de'
 import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 
-dayjs.locale(ptBR)
+dayjs.locale(de)
 
 interface Memory {
   id: string
